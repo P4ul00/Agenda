@@ -1,5 +1,5 @@
-﻿using MySql.Data.MySqlClient;
-using System;
+﻿using System;
+using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -122,8 +122,8 @@ namespace Agenda
             txtNome.Clear();
             txtEmail.Text = "";
             btnInserir.Text = "INSERIR";
-            btnDeletar.Visible = false;
-            btnUpdate.Visible = false;
+            btnDeletar.Visible = true;
+            btnUpdate.Visible = true;
 
 
 
